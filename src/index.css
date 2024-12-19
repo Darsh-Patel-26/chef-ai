@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #FAFAF8;
+    color: #555555;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+header > h1 {
+    font-weight: 400;
+}
+
+main {
+    padding: 30px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.app-form > input {
+    border-radius: 6px;
+    border: 1px solid #d1d5d8;
+    padding: 9px 13px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    flex-grow: 1;
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.app-form > button {
+    border-radius: 6px;
+    border: none;
+    background-color: #141413;
+    color: #FAFAF8;
+    height: 2rem;
+    width: 150px;
+}
+
+.app-form > button::before {
+    content: "+";
+    margin-right: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+section > h2 {
+    margin-bottom: 0;
+}
+
+section > ul {
+    margin: 0;
+}
+
+section > ul > li {
+    color: #555555;
+    margin: 1rem;
+}
+
+.get-r-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c2c2;
+    width: 500px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.get-r-cont > button {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+
+.get-r-cont > button:hover {
+    cursor: pointer;
+}
+
+.get-r-cont > button:active {
+    color: #141413;
+    background-color: rgb(227, 147, 147);
+}
+
+.get-r-cont > div > p {
+    color: #555555;
+}
+
+.recipe {
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    max-width: 50%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
