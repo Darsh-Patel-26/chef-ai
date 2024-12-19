@@ -21,4 +21,4 @@ Chef AI is an innovative web application built using React that takes a list of 
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Darsh-Patel-26/chef-ai.git
